@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+input,select {
+    width: 300px;
+    height: 30px;
+    padding: 0 15px;
+    color: white;
+    background-color: darkolivegreen;
+    border-color: greenyellow;
+    border-radius: 0.4rem;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+
+input::placeholder {
+    color: white;
+    opacity: .7;
+}
+
+button {
+    display: block;
+    width: auto;
+    height: 25px;
+    margin: 15px 0 0 0;
+    padding: 0 30px 0 10px;
+    border-radius: 0 0 2rem 0.5rem;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    text-align: start;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border-top: none;
+
+}
